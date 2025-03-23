@@ -1,0 +1,11 @@
+For each applicant in applicants_list
+If applicant. gender == "Female" AND
+18 <E applicant. . age <E 25 AND
+applicant.total_points >= 30 AND
+applicant.math grade ○○ B AND
+applicant.englishgrade >- B AND
+applicant.phys_sci_grade >= B AND
+applicant.entry_test =- "Pass""
+Add applicant to shortlist
+Else:
+Reject applicant
