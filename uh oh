@@ -1,6 +1,6 @@
 START
-Input SADC_citizenship=check_for_true,check_age=18=>_years_old,check_age=<=25_years_old,check_gender=female,check_symbol_in_subject_math=<=B,check_symbol_in_english=<=B,check_symbol_in_physical_science=<=B,check_if_total_points=30=>,approval_list=0
-if_every_check=correct,put_student_name_on_approval_list
+Input SADC_citizenship=check_for_true,check_age=18=>_years_old,check_age=<=25_years_old,check_gender=female,check_symbol_in_subject_math=<=B,check_symbol_in_english=<=B,check_symbol_in_physical_science=<=B,check_if_total_points=30=>,approval_list=0,student_name=0
+if_check=correct,student_name=aprroval
 else
 reject_student
 END
