@@ -1,6 +1,6 @@
 START
-Input SADC_citizenship=0,age=18=>_years_old,age=<=25_years_old,gender=female,symbol_in_subject_math=<=B,symbol_in_english=<=B,symbol_in_physical_science=<=B,if_total_points=30=>,entry_test=pass=admission_pass
-Output SADC_citizenship=0,age=18=>_years_old,age=<=25_years_old,gender=female,symbol_in_subject_math=<=B,symbol_in_english=<=B,symbol_in_physical_science=<=B,if_total_points=30=>,entry_test=pass=display_message= "congratulations! you have qualified to be part of the scholarship!"
+Input SADC_citizenship=0,age=18=>_years_old,age=<=25_years_old,gender=female,symbol_in_subject_math=<=B,symbol_in_english=<=B,symbol_in_physical_science=<=B,if_total_points=30=>,entry_test=pass=admission_pass=display_message= "congratulations! you have qualified to be part of the scholarship!"
+Output SADC_citizenship=0,age=18=>_years_old,age=<=25_years_old,gender=female,symbol_in_subject_math=<=B,symbol_in_english=<=B,symbol_in_physical_science=<=B,if_total_points=30=>,entry_test=pass=admission_pass=display_message= "congratulations! you have qualified to be part of the scholarship!"
 else
 Input display_message= "sorry, you have not qualifed for the scholarship."
 Output display_message= "sorry, you have not qualifed for the scholarship."
